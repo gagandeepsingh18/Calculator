@@ -23,6 +23,10 @@ public class Calculator {
 		System.out.println("Enter number 2 for -");
 		System.out.println("Enter number 3 for *");
 		System.out.println("Enter number 4 for /");
+		System.out.println("Enter number 5 for %");
+		System.out.println("Enter number 6 for --");
+		System.out.println("Enter number 7 for ++");
+		System.out.println("Enter number 8 for square root");
 		switch (operator) {
 		case 1: 
 			System.out.println(number1 + number2);
