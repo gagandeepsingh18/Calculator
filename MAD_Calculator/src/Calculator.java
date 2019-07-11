@@ -11,7 +11,16 @@ public class Calculator {
 		// TODO Auto-generated method stub
 		int number1;
 		int number2;
-		System.out.println("CHANGES");
+		int operator;
+		Scanner obj=new Scanner(System.in);
+		System.out.println("Enter number 1");
+		number1=obj.nextInt();
+		System.out.println("Enter number 1");
+		number2=obj.nextInt();
+		System.out.println("Enter operator");
+		operator=obj.nextInt();
+	
+		
 		switch (operator) {
 		case 1: 
 			System.out.println(number1 + number2);
