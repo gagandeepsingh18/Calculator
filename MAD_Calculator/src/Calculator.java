@@ -19,8 +19,10 @@ public class Calculator {
 		number2=obj.nextInt();
 		System.out.println("Enter operator");
 		operator=obj.nextInt();
-	
-		
+		System.out.println("Enter number 1 for +");
+		System.out.println("Enter number 2 for -");
+		System.out.println("Enter number 3 for *");
+		System.out.println("Enter number 4 for /");
 		switch (operator) {
 		case 1: 
 			System.out.println(number1 + number2);
